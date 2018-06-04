@@ -5,26 +5,27 @@ body {
   opacity: 0.9;
   text-align: center;
   font-size: 22px;
-  padding: 0px;
   margin: 0px;
 }
 
 a {
   color: seashell;
-  opacity: 0.9;
 }
+
+
 
 /* Header */
 
-header {
+.header {
   display: flex;
   align-items: center;
   position: fixed;
-  z-index: 1;
   width: 100%;
   height: 69px;
   border-bottom: 1px solid seashell;
   opacity: 0.9;
+  background-color: black;
+  z-index: 99;
 }
 
 .logo {
@@ -36,7 +37,7 @@ header {
 
 .logo img {
   height: 50px;
-  opacity: 0.9;
+
 }
 
 nav span {
@@ -44,6 +45,44 @@ nav span {
   padding: 20px 10px;
 }
 
-header nav {
+.header nav {
   padding-right: 10px;
+}
+
+
+/* Mission */
+
+.mission {
+  background-image: url(../images/img-mission-background.jpg);
+  position: relative;
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  margin: 70px auto 50px auto;
+  align-items: center;
+  
+}
+
+.mission1 {
+  background-color: black;
+  height: 140px;
+  width: 1200px;
+  opacity: 0.9;
+  align-items: center;
+}
+
+/* Tea selection */
+
+.selection {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  text-align: center;
+  font-weight: bold;
+  opacity: 0.9;
+}
+
+.selection img {
+  height: 200px;
+  width: 300px;
 }
