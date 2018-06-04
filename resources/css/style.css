@@ -12,6 +12,9 @@ a {
   color: seashell;
 }
 
+h3 {
+  padding: 0px;
+}
 
 
 /* Header */
@@ -49,6 +52,9 @@ nav span {
   padding-right: 10px;
 }
 
+.space {
+  height: 70px;
+}
 
 /* Mission */
 
@@ -58,9 +64,9 @@ nav span {
   height: 700px;
   width: 1200px;
   display: flex;
-  margin: 70px auto 50px auto;
+  margin: 0px auto 50px auto;
   align-items: center;
-  
+
 }
 
 .mission1 {
@@ -69,6 +75,21 @@ nav span {
   width: 1200px;
   opacity: 0.9;
   align-items: center;
+}
+
+/* Featured Tea */
+
+.featured{
+  display: flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 25px auto;
+}
+
+.featuredtitle {
+  width: 1000px;
+  text-align: center;
 }
 
 /* Tea selection */
@@ -80,9 +101,40 @@ nav span {
   text-align: center;
   font-weight: bold;
   opacity: 0.9;
+  margin: 15px 15px 15px 15px;
 }
 
 .selection img {
   height: 200px;
   width: 300px;
+  padding-bottom: 10px;
+}
+
+
+/* Locations */
+
+.location {
+  display: flex;
+  width: 1200px;
+  height: 550px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin: 50px auto;
+  background-image: url(../images/img-locations-background.jpg);
+  background-size: cover;
+}
+
+.locationtitle {
+  width: 1200px;
+}
+
+.locationitem {
+  background-color: black;
+  width: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  opacity: 0.9;
+  margin: 0px 20px 0px 20px;
 }
